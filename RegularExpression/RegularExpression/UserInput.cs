@@ -107,10 +107,8 @@ namespace UserInput
                         throw new CustomException.InvalidEmailFormatException();
                     }
                 case inputType.name:
-
-                    Regex regex = new Regex(@"\b([A-Z][a-z]{1,29})\b");
-                    
-                        if(regex.IsMatch(input))
+                                        
+                        if(!Regex.IsMatch(input, @"\b[A-Z][a-z]{1,29}\b"))
                         {
                             throw new CustomException.InvalidNameFormatException();
                         }
