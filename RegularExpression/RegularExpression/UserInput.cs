@@ -108,14 +108,13 @@ namespace UserInput
                     }
                 case inputType.name:
 
-                    Regex regex = new Regex(namePattern);
-                    foreach(string word in input.Split())
-                    {
-                        if(!regex.IsMatch(word))
+                    Regex regex = new Regex(@"\b([A-Z][a-z]{1,29})\b");
+                    
+                        if(regex.IsMatch(input))
                         {
                             throw new CustomException.InvalidNameFormatException();
                         }
-                    }
+
                     return true;
 
                 case inputType.phone:

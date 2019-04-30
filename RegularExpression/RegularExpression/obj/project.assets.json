@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\source\\repos\\Week2\\Lab7\\RegularExpression\\RegularExpression\\RegularExpression.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Documents\\GrandCircus\\Lab7\\RegularExpression\\RegularExpression\\RegularExpression.csproj",
       "projectName": "RegularExpression",
-      "projectPath": "C:\\Users\\User\\source\\repos\\Week2\\Lab7\\RegularExpression\\RegularExpression\\RegularExpression.csproj",
+      "projectPath": "C:\\Users\\User\\Documents\\GrandCircus\\Lab7\\RegularExpression\\RegularExpression\\RegularExpression.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\source\\repos\\Week2\\Lab7\\RegularExpression\\RegularExpression\\obj\\",
+      "outputPath": "C:\\Users\\User\\Documents\\GrandCircus\\Lab7\\RegularExpression\\RegularExpression\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
